@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <!-- font-awsome -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href=".//css/style.css">
+    <link rel="stylesheet" href=".//css/Media.css">
+    <style>
+        .product-row
+        {
+            width: 100%;
+            display: flex;
+            flex-wrap: wrap;
+            row-gap: 38px;
+            justify-content: space-between;
+        }
+        .product-title
+        {
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 32px;
+        }
+        .product-title span
+        {
+            color:#3C9379;
+        }
+        .product-img-box
+        {
+            width: 31%;
+            border: 1px solid #3C9379;
+        }
+        .product-pric
+        {
+            text-align: center;
+            padding: 10px 0;
+        }
+        .product-img img:hover {
+            transform: scale(1.3);
+            transition: 0.7s;
+        }
+        .product-img-box
+        {
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .product-img {
+    transform: scale(1);
+    overflow: hidden;
+}   
+        @media(max-width:767px)
+        {
+            
+       
+            .product-img-box {
+            width: 48%;
+            border: 5px solid black;
+        }
+        }
+        @media(max-width:575px){
+            
+            .product-img-box{
+        
+            width: 100%;
+            border: 5px solid black;
+        }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="desktop-header">
+            <div class="container">
+                <div class="header-row">
+                    <div class="logo-header">
+                        <a href=".//Index.html"><img src=".//image/Logo (1).png" alt="logo"></a>
+                    </div>
+                    <div class="menu">
+                        <nav class="navbar">
+                            <ul>
+                                <li><a href=".//Index.html">Home</a></li>
+                                <li><a href=".//product-page.html">Products</a></li>
+                                <li><a href="#">Categories</a></li>
+                                <li><a href=".//our-brands.html">Brands</a></li>
+                                <li><a href="#">Pricing</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="login-header">
+                        <div class="login">
+                            <a href="#" title="LOgin">Login</a>
+                        </div>
+                        <div class="register">
+                            <a href="#">Register</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="mobile-view-header">
+            <div class="container">
+                <div class="mobile-view-row">
+                    <div class="burger">
+                        <div id="nav-icon1">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="logo-mobile">
+                        <a href="#"><img src=".//image/Logo (1).png" alt="logo"></a>
+                    </div>
+                    <div class="user">
+                        <a href="#" title="User"><i class="fa-solid fa-user"></i></a>
+                    </div>
+                </div>
+            
+            <div class="mobile-nav">
+                <nav class="mobile-menu">
+                    <ul>
+                        <li><a href="./Index.html">Home</a></li>
+                        <li><a href="./product-page.html">Products</a></li>
+                        <li><a href="#">Categories</a></li>
+                        <li><a href="./our-brands.html">Brands</a></li>
+                        <li><a href="#">Pricing</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        </div>
+    </header>
+
+
+
+    <div class="container">
+        <div class="product-title">
+            <h1><span>Our</span> Product</h1>
+        </div>
+        <div class="product-row section-p">
+            <div class="product-img-box">
+                <div class="product-img">
+                    <img src=".//image/product-pages/img-1.jpg" alt="">
+                </div>
+                <div class="product-pric">
+                    <h3>product 1</h3>
+                    <p>Rp 299.999</p>
+                </div>
+            </div>
+            <div class="product-img-box">
+                <div class="product-img">
+                    <img src=".//image/product-pages/41YMJVJ5maL._SL500_.jpg" alt="">
+                </div>
+                <div class="product-pric">
+                    <h3>product 1</h3>
+                    <p>Rp 299.999</p>
+                </div>
+            </div>
+            <div class="product-img-box">
+                <div class="product-img">
+                    <img src=".//image/product-pages/img-4.webp" alt="">
+                </div>
+                <div class="product-pric">
+                    <h3>product 1</h3>
+                    <p>Rp 299.999</p>
+                </div>
+            </div>
+            <div class="product-img-box">
+                <div class="product-img">
+                    <img src=".//image/product-pages/img-5.jpeg" alt="">
+                </div>
+                <div class="product-pric">
+                    <h3>product 1</h3>
+                    <p>Rp 299.999</p>
+                </div>
+            </div>
+            <div class="product-img-box">
+                <div class="product-img">
+                    <img src=".//image/product-pages/img-6.jpeg" alt="">
+                </div>
+                <div class="product-pric">
+                    <h3>product 1</h3>
+                    <p>Rp 299.999</p>
+                </div>
+            </div>
+            <div class="product-img-box">
+                <div class="product-img">
+                    <img src=".//image/product-pages/img-1.jpg" alt="">
+                </div>
+                <div class="product-pric">
+                    <h3>product 1</h3>
+                    <p>Rp 299.999</p>
+                </div>
+            </div>
+
+            <div class="product-img-box">
+                <div class="product-img">
+                    <img src=".//image/product-pages/41YMJVJ5maL._SL500_.jpg" alt="">
+                </div>
+                <div class="product-pric">
+                    <h3>product 1</h3>
+                    <p>Rp 299.999</p>
+                </div>
+            </div>
+            <div class="product-img-box">
+                <div class="product-img">
+                    <img src=".//image/product-pages/img-5.jpeg" alt="">
+                </div>
+                <div class="product-pric">
+                    <h3>product 1</h3>
+                    <p>Rp 299.999</p>
+                </div>
+            </div>
+            <div class="product-img-box">
+                <div class="product-img">
+                    <img src=".//image/product-pages/img-4.webp" alt="">
+                </div>
+                <div class="product-pric">
+                    <h3>product 1</h3>
+                    <p>Rp 299.999</p>
+                </div>
+            </div>
+            <div class="product-img-box">
+                <div class="product-img">
+                    <img src=".//image/product-pages/img-1.jpg" alt="">
+                </div>
+                <div class="product-pric">
+                    <h3>product 1</h3>
+                    <p>Rp 299.999</p>
+                </div>
+            </div>
+            <div class="product-img-box">
+                <div class="product-img">
+                    <img src=".//image/product-pages/img-5.jpeg" alt="">
+                </div>
+                <div class="product-pric">
+                    <h3>product 1</h3>
+                    <p>Rp 299.999</p>
+                </div>
+            </div>
+            <div class="product-img-box">
+                <div class="product-img">
+                    <img src=".//image/product-pages/img-6.jpeg" alt="">
+                </div>
+                <div class="product-pric">
+                    <h3>product 1</h3>
+                    <p>Rp 299.999</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- footer-starts -->
+    <footer class="section-p">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-left-inner">
+                    <div class="footer-logo">
+                        <a href="#"><img src="./image/Logo (1).png" alt="compny's_logo"></a>
+                    </div>
+                    <div class="footer-containt">
+                        <p>Bachira is an online store dealing with all product
+                            Bachira provide cheap, high quality, products to
+                            customers</p>
+                    </div>
+                </div>
+                <div class="footer-right-inner">
+                    <div class="For-Beginner">
+                        <div class="For-Beginner-title">
+                            <h4>For Beginner</h4>
+                        </div>
+                        <div class="For-Beginner-menu">
+                            <nav class="For-Beginner-nav">
+                                <ul>
+                                    <li><a href="#">About</a></li>
+                                    <li><a href="#">Career</a></li>
+                                    <li><a href="#">Promotion</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+
+                    <div class="For-Beginner">
+                        <div class="For-Beginner-title">
+                            <h4>Overview</h4>
+                        </div>
+                        <div class="For-Beginner-menu">
+                            <nav class="For-Beginner-nav">
+                                <ul>
+                                    <li><a href="#">Product</a></li>
+                                    <li><a href="#">Categories</a></li>
+                                    <li><a href="#">Pricing</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+
+                    <div class="For-Beginner">
+                        <div class="For-Beginner-title">
+                            <h4>Explore Us</h4>
+                        </div>
+                        <div class="For-Beginner-menu">
+                            <nav class="For-Beginner-nav">
+                                <ul>
+                                    <li><a href="#">Our Career</a></li>
+                                    <li><a href="#">Privacy</a></li>
+                                    <li><a href="#">Terms & Conditions</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+
+
+                    <div class="contact-us-footer">
+                        <div class="contact-us-footer-title">
+                            <h4>Connect Us</h4>
+                        </div>
+                        <div class="contact-detils">
+                            <div class="footer-mail">
+                                <a href="emailto:support@bachira.com">support@bachira.com</a>
+                            </div>
+                            <div class="call-footer">
+                                <a href="tel:021 - 555 -456">021 - 555 -456</a>
+                            </div>
+                            <div class="address-footer">
+                                <p>Sudirman, South Jakarta</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src=".//js/script.js"></script>
+ <script src=".//jQuery/jquery-3.6.3.min.js"></script>
+    
+</body>
+</html>
